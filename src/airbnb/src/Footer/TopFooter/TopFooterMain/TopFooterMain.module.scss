@@ -1,0 +1,19 @@
+.main {
+  display: grid;
+  grid-template-columns: repeat(6, 190px);
+  grid-gap: 15px;
+  margin: 10px auto 50px;
+  list-style-type: none;
+
+  .items {
+
+    h5 {
+      font-weight: 1100;
+    }
+
+    span {
+
+    }
+
+  }
+}

@@ -1,0 +1,12 @@
+.header {
+  position: relative;
+  border-bottom: 1px solid lightgray;
+  padding: 0 70px;
+  z-index: 10;
+}
+
+.topHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

@@ -1,0 +1,24 @@
+.option {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 140px;
+  box-shadow: 0 0 30px #989898;
+  margin: 0;
+  padding: 10px;
+  border-radius: 10px;
+  top: 40%;
+  right: 10%;
+  transform: translate(20%,-5%);
+  border-color: white;
+  z-index: 10;
+  background-color: white;
+
+li{
+  margin-bottom: 15px;
+}
+  hr{
+    border: gray;
+    margin: 0;
+  }
+}

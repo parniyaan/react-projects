@@ -1,0 +1,7 @@
+.eventlist {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 40px;
+  margin: 20px 0 0 0 ;
+}

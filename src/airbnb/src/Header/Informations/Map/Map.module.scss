@@ -1,0 +1,42 @@
+.where {
+  height: 320px;
+  background-color: #ececec;
+  position: absolute;
+  padding: 20px;
+  top: 110%;
+  left: -5%;
+  z-index: 10;
+  width: 350px;
+  border-radius: 20px;
+
+  h4{
+    font-weight: 900;
+  }
+
+  .maps {
+    display: grid;
+    grid-template-columns: repeat(3, 80px);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 40px;
+    padding: 0;
+    margin-top: 20px;
+    //align-items: center;
+    justify-content: center;
+
+
+
+    .map {
+      cursor: pointer;
+
+      img {
+        width: 80px;
+        height: 80px;
+        border-radius: 5px;
+
+        h4 {
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}

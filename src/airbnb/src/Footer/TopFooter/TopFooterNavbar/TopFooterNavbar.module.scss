@@ -1,0 +1,22 @@
+.options {
+  display: flex;
+  border-bottom: 1px solid #9c9c9c;
+  text-align: center;
+  width: 1250px;
+  align-self: center;
+
+  li {
+    padding-bottom: 10px;
+    cursor: pointer;
+
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+
+    &.selected {
+      border-bottom: 1px solid black;
+      font-weight: 700;
+    }
+
+  }
+}
