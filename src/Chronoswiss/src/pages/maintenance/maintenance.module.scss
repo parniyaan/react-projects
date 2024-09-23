@@ -1,0 +1,61 @@
+.maintenanceContainer {
+  color: white;
+  background-color: #000;
+  width: 100%;
+  margin-top: 50px;
+  overflow: hidden;
+ padding-bottom: 100px;
+
+  .maintenanceContent {
+    background-image: url("../../images/andreas-bentele-wwkcjW_DBzI-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+    background-position: (-300px, 300px);
+    padding: 200px 0 0 100px;
+    margin-left: 100px;
+
+    .maintenanceHeader{
+      width: 500px;
+    }
+
+    .describ{
+      width: 700px;
+    }
+
+  }
+
+  .maintenanceList {
+    list-style-type: none;
+    margin-top: 200px;
+
+    .maintenanceItem {
+      display: flex;
+      align-items: center;
+
+      .picture {
+        width: 200px;
+        height: 200px;
+        object-fit: contain;
+        margin-right: 20px;
+
+      }
+
+      .maintenanceDescription {
+
+        .maintenanceTitle {
+
+        }
+
+        .maintenanceDes {
+          line-height: 30px;
+        }
+
+      }
+      &:not(:last-child) {
+        margin-bottom: 80px;
+      }
+    }
+  }
+}

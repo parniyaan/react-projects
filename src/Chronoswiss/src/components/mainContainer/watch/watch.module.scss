@@ -1,0 +1,79 @@
+.watch {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  margin-top: 50px;
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 0 0 0;
+
+
+    .model {
+      color: #d3d3d3;
+    }
+
+    .name {
+      width: 500px;
+      margin-bottom: 200px;
+    }
+
+    .price {
+      margin: 0 0 30px 10px;
+      font-size: 18px;
+    }
+
+    .buyButton {
+      width: 120px;
+      border-radius: 20px;
+      padding: 10px 0;
+      border: none;
+      margin: 0;
+      background-color: #D29670;
+    }
+  }
+
+  .picture {
+    margin: 0 300px 0 130px;
+
+    .image {
+      width: 650px;
+      height: 550px;
+      transform: rotateZ(45deg);
+      opacity: 1;
+      transition: opacity .5s ease-in-out;
+
+      &.fade-out{
+        opacity: 0;
+      }
+    }
+  }
+
+  .options {
+    display: flex;
+    flex-direction: column;
+
+    .isAvailable {
+      color: #D29670;
+    }
+
+    .icons {
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+      margin-top: 400px;
+
+      .icon {
+        width: 25px;
+        height: 25px;
+        fill: #d3d3d3;
+
+        &:not(:last-child) {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+
+}

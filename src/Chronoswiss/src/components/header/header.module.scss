@@ -1,0 +1,94 @@
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  color: white;
+  position: relative;
+  padding: 0 100px;
+
+
+  .title {
+    display: flex;
+    align-items: center;
+
+    .logo {
+      margin-right: 20px;
+      text-decoration: none;
+      color: white;
+      font-size: 30px;
+    }
+
+    .menu {
+      fill: #ffffff;
+    }
+  }
+
+  .navbar {
+    display: flex;
+    list-style-type: none;
+
+    .navItem {
+      color: white;
+      text-decoration: none;
+      cursor: pointer;
+
+      &:hover {
+        color: #bfbfbf;
+      }
+
+      &:not(:last-child) {
+        margin-right: 35px;
+      }
+    }
+  }
+
+  .items {
+    display: flex;
+    align-items: center;
+
+    .options {
+      display: flex;
+      align-items: center;
+
+      .languageSelection {
+      }
+
+      .countriesSelection {
+        margin-left: 10px;
+
+
+      }
+    }
+
+    select {
+      width: 60px;
+      height: 30px;
+      border-radius: 20px;
+      background-color: #555555;
+      color: white;
+      padding: 0 5px;
+
+    }
+
+    .details {
+      margin-left: 20px;
+
+
+      .icon {
+        fill: #c1c1c1;
+        width: 25px;
+        height: 25px;
+
+        &:not(:last-child) {
+          margin-right: 15px;
+        }
+      }
+    }
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+}

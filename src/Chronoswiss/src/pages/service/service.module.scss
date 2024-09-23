@@ -1,0 +1,64 @@
+.serviceContainer {
+  color: white;
+  background-color: #000;
+  margin-top: 50px;
+  padding-bottom: 100px;
+
+
+  .content {
+    background-image: url("../../images/andreas-bentele-vHeuvM56910-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 540px;
+    padding: 200px 0 0 100px;
+
+    h1 {
+      width: 700px;
+    }
+
+    p {
+      margin: 40px 0;
+      width: 700px;
+    }
+
+    .aboutUs {
+      margin-bottom: 20px;
+    }
+  }
+
+  .serviceLocations {
+    display: grid;
+    grid-template-columns: repeat(2, 600px);
+    grid-template-rows: repeat(2, 350px);
+    justify-content: center;
+    grid-gap: 100px;
+    margin-top: 50px;
+
+    .serviceLocation {
+      list-style-type: none;
+      border-bottom: 1px solid #AB9683;
+
+      .afterService {
+        font-weight: 400;
+      }
+
+      .loc {
+        color: #AB9683;
+        margin-bottom: 50px;
+        font-weight: 400;
+      }
+
+      .tel {
+        margin-top: 50px;
+      }
+    }
+
+  }
+
+  button {
+    background-color: inherit;
+    border: 1px solid #AA9682;
+    padding: 10px;
+    color: #AA9682;
+  }
+}
