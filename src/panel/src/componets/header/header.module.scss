@@ -1,0 +1,70 @@
+.headerContainer {
+  width: calc(100% - 100px);
+  background-color: var(--background);
+  border-radius: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 50px;
+  margin-right: 20px;
+
+
+  .searchInput {
+    width: 350px;
+    height: 40px;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    border-radius: 20px;
+    fill: var(--main-color);
+
+
+    .input {
+      flex-grow: 1;
+      border: none;
+      background-color: inherit;
+      outline: none;
+      font-size: 16px;
+    }
+  }
+
+  .options {
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    width: 180px;
+    height: 40px;
+    background-color: var(--primary-color);
+    overflow: hidden;
+
+
+    .option {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+
+
+      .optionName {
+        margin-left: 5px;
+
+      }
+    }
+
+    .card {
+      background-color: var(--main-color);
+      width: 95px;
+      border-radius: 20px;
+      color: white;
+
+    }
+
+    .list {
+      width: 85px;
+
+    }
+  }
+
+
+}
