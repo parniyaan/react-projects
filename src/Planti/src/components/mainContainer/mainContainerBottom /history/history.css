@@ -1,0 +1,26 @@
+.custom-size {
+    width: 40px;
+    height: 40px;
+}
+
+.title-style {
+    color: #326a03;
+}
+
+.w-30 {
+    width: 35%;
+}
+
+.name-size {
+    font-size: 15px;
+}
+
+.ms-25 {
+    margin-left: 20px;
+
+}
+
+.mb-10:not(:last-child) {
+    margin-bottom: 30px;
+
+}

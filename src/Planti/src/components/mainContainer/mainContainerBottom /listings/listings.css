@@ -1,0 +1,18 @@
+.image-size {
+    width: 250px;
+    height: 250px;
+}
+
+.custom-height{
+    height:300px;
+}
+
+.list-item{
+    border-radius: 15px;
+    width: 33%;
+}
+
+.list-item:not(:last-child){
+    margin-right: 80px;
+}
+

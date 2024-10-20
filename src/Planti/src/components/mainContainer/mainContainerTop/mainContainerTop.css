@@ -1,0 +1,44 @@
+.bg-inherit {
+    background-color: inherit;
+}
+
+.bg-custom1 {
+    background-image: url("../../../images/images (13).png");
+    backdrop-filter: blur(200px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    color: #54AE32;
+    margin-right:100px;
+    width: 60%;
+}
+
+.bg-custom2 {
+    background-image: url("../../../images/images (16).jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 45px 0 0 30px;
+    color: #3E341F;
+    width: 30%;
+}
+
+.p-custom{
+    padding: 30px;
+}
+
+.mr-custom{
+    margin-right: 50px;
+    color: #54AE32 ;
+}
+
+.fontSize-custom{
+    font-size: 17px;
+    width: 400px;
+}
+
+.me-4{
+    margin-right: 20px;
+}
